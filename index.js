@@ -12,7 +12,7 @@ function deepestChild() {
   .querySelectorAll('div');
 
   let element = ""
-  
+
   for (let i = 0; i < elements.length; i++) {
      element = elements.innerHTML;
   }
