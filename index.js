@@ -7,14 +7,11 @@ function nestedTarget() {
 }
 
 function deepestChild() {
-  const elements = document
-  .getElementById('grand-node')
-  .querySelectorAll('div');
-
+  const elements = document.getElementById('grand-node').querySelectorAll('div');
   let element = ""
 
   for (let i = 0; i < elements.length; i++) {
-     element = elements.innerHTML;
+     element = elements[i].innerHTML;
   }
   return element
 }
