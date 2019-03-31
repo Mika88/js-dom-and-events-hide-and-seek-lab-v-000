@@ -11,7 +11,7 @@ function deepestChild() {
   let element = ""
 
   for (let i = 0; i < elements.length; i++) {
-     element = elements[i].innerHTML;
+     element = elements[i];
   }
   return element
 }
