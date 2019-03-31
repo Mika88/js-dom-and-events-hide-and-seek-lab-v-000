@@ -16,6 +16,7 @@ function deepestChild() {
   for (let i = 0; i < elements.length; i++) {
      element = elements.innerHTML;
   }
+  return element
 }
 
 function increaseRankBy(n) {
